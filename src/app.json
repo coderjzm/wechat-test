@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/list/main",
+    "pages/nav/main",
     "pages/index/main",
-    "pages/swiper/main",
-    "pages/list/main"
+    "pages/swiper/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,6 +14,18 @@
   "tabBar": {
     "list": [
       {
+        "pagePath": "pages/list/main",
+        "text": "list",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      },
+      {
+        "pagePath": "pages/nav/main",
+        "text": "nav",
+        "iconPath": "static/tabs/orders.png",
+        "selectedIconPath": "static/tabs/orders-active.png"
+      },
+      {
         "pagePath": "pages/index/main",
         "text": "首页",
         "iconPath": "static/tabs/home.png",
@@ -21,12 +34,6 @@
       {
         "pagePath": "pages/swiper/main",
         "text": "swiper",
-        "iconPath": "static/tabs/orders.png",
-        "selectedIconPath": "static/tabs/orders-active.png"
-      },
-      {
-        "pagePath": "pages/list/main",
-        "text": "list",
         "iconPath": "static/tabs/orders.png",
         "selectedIconPath": "static/tabs/orders-active.png"
       }
